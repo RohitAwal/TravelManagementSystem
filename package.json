@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "development": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RohitAwal/TravelManagementSystem/issues"
   },
-  "homepage": "https://github.com/RohitAwal/TravelManagementSystem#readme"
+  "homepage": "https://github.com/RohitAwal/TravelManagementSystem#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
